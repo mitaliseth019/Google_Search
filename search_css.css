@@ -1,0 +1,38 @@
+.image{
+            
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+       
+       
+       height: 100px;
+    }
+
+.container   {
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    
+}
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
+    }
+nav a {
+    display: block;
+    padding: 5px 10px 5px 5px;
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a:hover {
+text-decoration: underline;
+}
